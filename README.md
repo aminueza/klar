@@ -1,7 +1,7 @@
 # Klar
 Integration of Clair and Docker Registry (supports both Clair API v1 and v3)
 
-Klar is a simple tool to analyze images stored in a private or public  Docker registry for security vulnerabilities using Clair https://github.com/coreos/clair. Klar is designed to be used as an integration tool so it relies on enviroment variables. It's a single binary which requires no dependencies.
+Klar is a simple tool to analyze images stored in a private or public  Docker registry for security vulnerabilities using Clair https://github.com/quay/clair. Klar is designed to be used as an integration tool so it relies on enviroment variables. It's a single binary which requires no dependencies.
 
 Klar serves as a client which coordinates the image checks between the Docker registry and Clair.
 
